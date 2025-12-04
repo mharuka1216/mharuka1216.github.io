@@ -1,0 +1,92 @@
+製作期間：2025/09/18~
+制作物：架空のドーナツショップ
+ページ数：1ページ
+参考サイト：https://racines-b-s.com/
+
+店舗名：Felica Bread&Salad
+メインコピー：自然の恵みを味わう、おいしいご褒美
+リード文：厳選されたオーガニック素材で作るフレッシュなサラダと、職人の手仕事で焼き上げたドーナツ。口にした瞬間、自然の甘みが広がります。毎日の暮らしに、ちょっとした幸せを。
+
+お知らせ6件：
+【期間限定】秋の新作ドーナツ「マロン＆キャラメル」販売開始！
+【毎月10日はドーナツの日】お好きなドーナツ1個プレゼント！
+【新サービス】オンライン注文＆デリバリー開始！
+【店舗情報】新宿店、9月1日グランドオープン！
+【材料へのこだわり】北海道産オーガニック小麦を使用した新ドーナツ登場！
+【SNSキャンペーン】インスタグラムで「#Felicaドーナツ」をつけて投稿しよう！抽選で10名様にドーナツ詰め合わせプレゼント！
+
+
+店舗情報
+住所：東京都豊島区南池袋x-x-x
+電話番号：03-3333-xxxx
+メールアドレス：example@gmail.com
+営業時間：10:00~20:00
+定休日：年末年始
+駐車場：有り
+
+
+ページ構成
+・Header（nav, sns）
+・Main Visual（bxsliderで四枚の画像をfadeで切り替え）
+・News（3件　ajaxで外部データ化）
+・About（AOSでscroll animation）
+・Products（サムネイルを3つ　モーダルウィンドウ）
+・Parallax
+・Access（google map）
+・Link（他店舗へのリンク6件）
+・Footer（西暦を動的に）
+・CTA button 
+
+使用するプラグイン
+・bxslider
+https://bxslider.com/
+
+・Lightbox
+https://lokeshdhakar.com/projects/lightbox2/
+
+・AOS
+https://michalsnik.github.io/aos/
+
+・Tasty CSS-animated hamburgers
+https://jonsuh.com/hamburgers/
+
+使用する画像（jpgをwebpに変換, snsはsvg）
+・Main-visual 4枚（横 Mサイズ）
+  main-1.jpg ~ main-4.jpg
+
+・Products　3枚（800x600にトリミング）
+  item-1.jpg ~ item-3.jpg
+  
+・Parallax　1（横 Mサイズ）
+  parallax.jpg
+
+・Link　6枚（横 Sサイズ、他店舗の外観などの写真）
+  shop-1.jpg ~ shop-6.jpg
+
+・SNS（Facebook, Instagram）
+
+・ファビコン用画像
+File: favicon.png
+32x32px
+root folder
+
+・タッチアイコン用画像
+File: touch-icon.png
+192x192
+root folder
+
+使用するカラー
+・Base
+・Main
+・Accent
+
+使用するフォント
+・和文：
+・English：
+
+制作のポイント
+・ajaxを使用し、更新頻度の高いコンテンツを外部データ化し、非同期処理で呼び出す
+・モーダルウィンドウを使い、商品画像の拡大画像をページ移動することなく表示させる
+・background-attachmentを使用し、簡易的なパララックス効果を実装
+・AOSを使い、テキストにスクロールアニメーションを実装しスクロールを促す
+・font-sizeにclamp関数を使用し、作業の効率化を図る

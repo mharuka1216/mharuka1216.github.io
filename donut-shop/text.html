@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Font sizeを可変にする</title>
+  <style>
+    *{
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    h1{
+      text-align: center;
+      margin-top: 100px;
+      font-size: clamp(1.75rem, 1.125rem + 2.5vw, 3rem)
+    }
+    p{
+      text-align: center;
+      margin-top: 50px;
+      font-size: clamp(1rem, 0.625rem + 1.5vw, 1.75rem);
+    }
+  </style>
+</head>
+<body>
+  <h1>サイトタイトル</h1>
+  <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ex libero ipsum esse quia odio quas id, quis debitis fugiat mollitia, exercitationem voluptate deleniti, assumenda rerum ipsam. Architecto nemo iste sunt?</p>
+</body>
+</html>
